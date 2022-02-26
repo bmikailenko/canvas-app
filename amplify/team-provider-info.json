@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-collaborativecanvas-dev-165928-authRole",
+      "UnauthRoleArn": "arn:aws:iam::519468673194:role/amplify-collaborativecanvas-dev-165928-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::519468673194:role/amplify-collaborativecanvas-dev-165928-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-collaborativecanvas-dev-165928-deployment",
+      "UnauthRoleName": "amplify-collaborativecanvas-dev-165928-unauthRole",
+      "StackName": "amplify-collaborativecanvas-dev-165928",
+      "StackId": "arn:aws:cloudformation:us-east-2:519468673194:stack/amplify-collaborativecanvas-dev-165928/073833c0-950d-11ec-9174-0a19afc1b3ea",
+      "AmplifyAppId": "d1enb5zjdga9g"
+    },
+    "categories": {
+      "auth": {
+        "collaborativecanvase23d7995": {}
+      }
+    }
+  }
+}

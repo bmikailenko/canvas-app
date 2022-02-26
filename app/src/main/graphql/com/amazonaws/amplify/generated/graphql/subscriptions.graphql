@@ -1,0 +1,529 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateUser {
+  onCreateUser {
+    id
+    name
+    room
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    userCanvasId
+    owner
+  }
+}
+subscription OnUpdateUser {
+  onUpdateUser {
+    id
+    name
+    room
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    userCanvasId
+    owner
+  }
+}
+subscription OnDeleteUser {
+  onDeleteUser {
+    id
+    name
+    room
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    userCanvasId
+    owner
+  }
+}
+subscription OnCreateCanvas {
+  onCreateCanvas {
+    id
+    data {
+      x
+      y
+      value
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasDatapointId
+    }
+    date
+    user {
+      id
+      name
+      room
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      userCanvasId
+      owner
+    }
+    datapoint {
+      items {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      nextToken
+      startedAt
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasUserId
+  }
+}
+subscription OnUpdateCanvas {
+  onUpdateCanvas {
+    id
+    data {
+      x
+      y
+      value
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasDatapointId
+    }
+    date
+    user {
+      id
+      name
+      room
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      userCanvasId
+      owner
+    }
+    datapoint {
+      items {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      nextToken
+      startedAt
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasUserId
+  }
+}
+subscription OnDeleteCanvas {
+  onDeleteCanvas {
+    id
+    data {
+      x
+      y
+      value
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasDatapointId
+    }
+    date
+    user {
+      id
+      name
+      room
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      userCanvasId
+      owner
+    }
+    datapoint {
+      items {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      nextToken
+      startedAt
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasUserId
+  }
+}
+subscription OnCreateDataPoint {
+  onCreateDataPoint {
+    x
+    y
+    value
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasDatapointId
+  }
+}
+subscription OnUpdateDataPoint {
+  onUpdateDataPoint {
+    x
+    y
+    value
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasDatapointId
+  }
+}
+subscription OnDeleteDataPoint {
+  onDeleteDataPoint {
+    x
+    y
+    value
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasDatapointId
+  }
+}

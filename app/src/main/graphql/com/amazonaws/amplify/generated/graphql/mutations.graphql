@@ -1,0 +1,556 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateCanvas(
+  $input: CreateCanvasInput!
+  $condition: ModelCanvasConditionInput
+) {
+  createCanvas(input: $input, condition: $condition) {
+    id
+    data {
+      x
+      y
+      value
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasDatapointId
+    }
+    date
+    user {
+      id
+      name
+      room
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      userCanvasId
+      owner
+    }
+    datapoint {
+      items {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      nextToken
+      startedAt
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasUserId
+  }
+}
+mutation UpdateCanvas(
+  $input: UpdateCanvasInput!
+  $condition: ModelCanvasConditionInput
+) {
+  updateCanvas(input: $input, condition: $condition) {
+    id
+    data {
+      x
+      y
+      value
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasDatapointId
+    }
+    date
+    user {
+      id
+      name
+      room
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      userCanvasId
+      owner
+    }
+    datapoint {
+      items {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      nextToken
+      startedAt
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasUserId
+  }
+}
+mutation DeleteCanvas(
+  $input: DeleteCanvasInput!
+  $condition: ModelCanvasConditionInput
+) {
+  deleteCanvas(input: $input, condition: $condition) {
+    id
+    data {
+      x
+      y
+      value
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasDatapointId
+    }
+    date
+    user {
+      id
+      name
+      room
+      canvas {
+        id
+        date
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasUserId
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      userCanvasId
+      owner
+    }
+    datapoint {
+      items {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      nextToken
+      startedAt
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasUserId
+  }
+}
+mutation CreateDataPoint(
+  $input: CreateDataPointInput!
+  $condition: ModelDataPointConditionInput
+) {
+  createDataPoint(input: $input, condition: $condition) {
+    x
+    y
+    value
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasDatapointId
+  }
+}
+mutation UpdateDataPoint(
+  $input: UpdateDataPointInput!
+  $condition: ModelDataPointConditionInput
+) {
+  updateDataPoint(input: $input, condition: $condition) {
+    x
+    y
+    value
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasDatapointId
+  }
+}
+mutation DeleteDataPoint(
+  $input: DeleteDataPointInput!
+  $condition: ModelDataPointConditionInput
+) {
+  deleteDataPoint(input: $input, condition: $condition) {
+    x
+    y
+    value
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    canvasDatapointId
+  }
+}
+mutation CreateUser(
+  $input: CreateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  createUser(input: $input, condition: $condition) {
+    id
+    name
+    room
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    userCanvasId
+    owner
+  }
+}
+mutation UpdateUser(
+  $input: UpdateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  updateUser(input: $input, condition: $condition) {
+    id
+    name
+    room
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    userCanvasId
+    owner
+  }
+}
+mutation DeleteUser(
+  $input: DeleteUserInput!
+  $condition: ModelUserConditionInput
+) {
+  deleteUser(input: $input, condition: $condition) {
+    id
+    name
+    room
+    canvas {
+      id
+      data {
+        x
+        y
+        value
+        id
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        canvasDatapointId
+      }
+      date
+      user {
+        id
+        name
+        room
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        userCanvasId
+        owner
+      }
+      datapoint {
+        nextToken
+        startedAt
+      }
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      canvasUserId
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    userCanvasId
+    owner
+  }
+}

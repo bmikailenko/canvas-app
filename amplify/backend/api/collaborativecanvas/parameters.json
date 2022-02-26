@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "collaborativecanvas",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authcollaborativecanvase23d7995",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-02-24T20:03:05.354Z"
+}
